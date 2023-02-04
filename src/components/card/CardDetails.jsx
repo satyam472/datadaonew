@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = () => {
+const CardDetails = () => {
   return (
     <>
       <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -13,7 +13,7 @@ const Card = () => {
               <span>
                 <img src="..." class="card-img-top" alt="..."></img>
                 <h6 class="card-title">Author Name</h6>
-                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Go Track</a>
+                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Purchase It</a>
               </span>
             </div>
           </div>
@@ -27,7 +27,7 @@ const Card = () => {
               <span>
                 <img src="..." class="card-img-top" alt="..."></img>
                 <h6 class="card-title">Author Name</h6>
-                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Go Track</a>
+                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Purchase It</a>
               </span>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Card = () => {
               <span>
                 <img src="..." class="card-img-top" alt="..."></img>
                 <h6 class="card-title">Author Name</h6>
-                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Go Track</a>
+                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Purchase It</a>
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Card = () => {
               <span>
                 <img src="..." class="card-img-top" alt="..."></img>
                 <h6 class="card-title">Author Name</h6>
-                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Go Track</a>
+                <a href="/dashboard/course-details" class="btn btn-primary stretched-link">Purchase It</a>
               </span>
             </div>
           </div>
@@ -65,4 +65,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default CardDetails

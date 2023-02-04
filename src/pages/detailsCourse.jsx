@@ -1,16 +1,9 @@
 import React from 'react'
-import { Card } from '../components/card'
+import { CardDetails } from '../components/card/'
 
 const DetailsCourse = () => {
     return (
         <>
-            {/* <div class="card sticky-top text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Publish Entire Course Video</h5>
-                    <p class="card-text">You can publish own courses and make money easly.</p>
-                    <a href="/dashboard/add-course" class="btn btn-primary">Add Videos</a>
-                </div>
-            </div> */}
 
 
             <div className='text-center mb-5'>
@@ -31,7 +24,7 @@ const DetailsCourse = () => {
                     <p>Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.</p>
                     <div className='mb-3'>
                         <button class="btn btn-outline-info my-2 my-sm-0 mr-3" type="submit">BUY NOW</button>
-                        <button class="btn btn-outline-info my-2 my-sm-0 mr-3" type="submit">ADD MODULE</button>
+                        <a href="/addmodule" class="btn btn-outline-info">ADD MODULE</a>
                     </div>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
@@ -44,7 +37,11 @@ const DetailsCourse = () => {
                             </div>
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <Card />
+                                <div class="form-group text-center mt-3 ">
+                        <label for="exampleFormControlFile1">Add Module Video - </label>
+                        <input type="file" class="text-center" id="exampleFormControlFile1"></input>
+                    </div>
+                                <CardDetails />
                             </div>
                         </div>
 
@@ -57,9 +54,7 @@ const DetailsCourse = () => {
                                 </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
+                                <CardDetails />
                             </div>
                         </div>
                         <div class="card">
@@ -71,9 +66,7 @@ const DetailsCourse = () => {
                                 </h2>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
+                                <CardDetails />
                             </div>
                         </div>
                     </div>
