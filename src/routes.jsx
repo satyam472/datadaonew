@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Dashboard from "./pages/dashboard";
 import AddCourse from "./pages/addCourse";
 import DetailsCourse from "./pages/detailsCourse"
+import MyCourse from "./pages/myCourse"
 
 
 
@@ -13,6 +14,7 @@ const HomePage = () => <Home />
 const DashboardPage = () => <Dashboard />
 const AddCoursePage = () => <AddCourse />
 const DetailsCoursePage = () => <DetailsCourse />
+const MyCoursePage = () => <MyCourse />
 
 
 export const router = createBrowserRouter([
@@ -51,6 +53,10 @@ export const router = createBrowserRouter([
       }
     ],
   },
+  {
+    path:"mycourse",
+    element: <MyCoursePage />
+  }
 
 
 ]);

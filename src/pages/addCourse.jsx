@@ -21,7 +21,7 @@ const AddCourse = () => {
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Tutor Name</label>
-                        <input type="email" class="form-control ml-3" id="inputEmail4" placeholder="Enter Course Name"></input>
+                        <input type="email" class="form-control ml-3" id="inputEmail4" placeholder="Enter Tutor Name"></input>
                     </div>
 
                     <div class="form-group col-md-3 ml-5 ">

@@ -18,6 +18,9 @@ function Header() {
       <li class="nav-item">
         <a class="nav-link" href="dashboard">Dashboard</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mycourse">My Course</a>
+      </li>
     </ul>
     <button class="btn btn-outline-success my-2 my-sm-0 mr-3" type="submit">Sign Up</button>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Connect To Metamask</button>

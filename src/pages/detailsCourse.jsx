@@ -29,7 +29,10 @@ const DetailsCourse = () => {
                     <h6 className='mt-3 font-italic'>Describtions Of Course.</h6>
 
                     <p>Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.Web3 University is partnering with Alchemy to bring you the best community-driven course in blockchain development.</p>
-
+                    <div className='mb-3'>
+                        <button class="btn btn-outline-info my-2 my-sm-0 mr-3" type="submit">BUY NOW</button>
+                        <button class="btn btn-outline-info my-2 my-sm-0 mr-3" type="submit">ADD MODULE</button>
+                    </div>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
@@ -74,9 +77,9 @@ const DetailsCourse = () => {
                             </div>
                         </div>
                     </div>
-
-                    <button className='mt-3'>Track Now</button>
-
+                    {/* <div className='mt-3'>
+                    <button class="btn btn-outline-primary my-2 my-sm-0 mr-3" type="submit">ADD MODULE</button>
+                    </div> */}
                 </section>
             </div>
         </>
