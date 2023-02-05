@@ -19,7 +19,7 @@ function Header() {
         <a class="nav-link" href="dashboard">Dashboard</a>
       </li>
     </ul>
-    <button class="btn btn-outline-success my-2 my-sm-0 mr-3" type="submit">Sign Up</button>
+    <button href="signup" class="btn btn-outline-success my-2 my-sm-0 mr-3" type="submit">Sign Up</button>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Connect To Metamask</button>
   </div>
 </nav>

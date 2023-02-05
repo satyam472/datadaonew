@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Dashboard from "./pages/dashboard";
 import AddCourse from "./pages/addCourse";
 import DetailsCourse from "./pages/detailsCourse"
-
+import SignUp from "./pages/SignUp"
 
 
 // TODO PERFORMANCE - PAGE  - to know the purpose of this
@@ -31,6 +31,12 @@ export const router = createBrowserRouter([
         index: true,
       },
     ],
+  },
+  {
+    path: "/signup",
+    // LAYOUT
+    element: <SignUp />,
+
   },
   {
     path: "dashboard",
